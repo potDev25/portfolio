@@ -94,3 +94,7 @@ body{
 .links-social:hover {
   transform: scale(2); /* Apply scale inside the transform property */
 }
+
+#check{
+  outline: 2px border white !important;
+}

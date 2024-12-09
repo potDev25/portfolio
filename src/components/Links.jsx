@@ -89,18 +89,11 @@ export default function Links({ activeId }) {
           </div>
         </li>
         <li
-          onMouseEnter={() => setHovered(3)}
-          onClick={() => setHovered(3)}
-          onMouseLeave={() => setHovered(null)}
         >
           <div className="flex items-center gap-2">
-            <div
-              className={`bg-[#94a3b8] h-[1.5px] transition-all duration-300 ${
-                hovered === 3 ? "w-[100px]" : "w-[50px]"
-              }`}
-            ></div>
-            <a href="https://drive.google.com/file/d/1l64dHGgXR7unnvLoctJDlEv7l4a0GVb0/view?usp=sharing" target="_blank" className={`${hovered === 3 ? " text-white" : ""}`}>
-              Resume
+            <a id="check" href="https://drive.google.com/file/d/1oLXg4wBYvK1Diw4uotzlbkqMS3ZmEsDJ/view?usp=sharing" target="_blank" 
+            className={`bg-[#4f46e5] text-white font-bold uppercase rounded-md px-4 py-2 text-lg tracking-wider w-[200px] text-center`}>
+              Check Resume
             </a>
           </div>
         </li>
