@@ -91,7 +91,7 @@ export default function Links({ activeId }) {
         <li
         >
           <div className="flex items-center gap-2">
-            <a id="check" href="https://drive.google.com/file/d/1oLXg4wBYvK1Diw4uotzlbkqMS3ZmEsDJ/view?usp=sharing" target="_blank" 
+            <a id="check" href="https://drive.google.com/file/d/15d1bU8oAwnFuKKtgVQU1fUO5Gr4qGjfE/view?usp=sharing" target="_blank" 
             className={`bg-[#4f46e5] text-white font-bold uppercase rounded-md px-4 py-2 text-lg tracking-wider w-[200px] text-center`}>
               Check Resume
             </a>
